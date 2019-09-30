@@ -38,35 +38,40 @@ list(range(7))
 ```
 #### range的技術(2)
 ```
-list(range(1,6))
-#list2=range(1,6)
-#list2
+#從2開始到8
+list(range(2,8))
 ```
 ```
-答案是:[1, 2, 3, 4, 5]
+答案是:[2, 3, 4, 5, 6, 7]
 ```
 #### range的技術(3)
 ```
-list3=range(1,6,2)
+#1為第一個數值，6為最後數值，2為差距值
+list3=list(range(1,10,2))  
 list3
 ```
 ```
-答案是:
+答案是:[1, 3, 5, 7, 9]
 ```
 #### range的技術(4)
 ```
-for dd in range(6):
-   print(dd)
+for dd in range(5):
+  print (dd)
 ```
 ```
 答案是:
+0
+1
+2
+3
+4
 ```
 ##### 程式閱讀題:下列程式執行後會印出什麼？
 ```
-list1=range(10)
-list2=range(1,10)
-list3=range(1,10,2)
-list4=range(10,1,-2)
+list1=range(12)
+list2=range(1,12)
+list3=range(1,12,2)
+list4=range(12,1,-2)
 
 print(list(list1))
 print(list(list2))
@@ -76,6 +81,10 @@ print(list(list4))
 ```
 ```
 答案是:
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+[1, 3, 5, 7, 9, 11]
+[12, 10, 8, 6, 4, 2]
 ```
 # for 迴圈技術
 
