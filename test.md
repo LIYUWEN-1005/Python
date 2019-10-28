@@ -133,5 +133,5 @@ SSO (Single sign in)
 單機作業系統：　Windows、Linux、MacOS(Macintosh)...
  使用動態磚title，存取APP
  防毒 Windows defender
- 伺服器 Windows、MacOS、UNIX、Linux
+ 伺服器 Windows、MacOS、UNIX、Linux(多工)
  ```
