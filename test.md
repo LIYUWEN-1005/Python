@@ -6,6 +6,7 @@ process managment CPU排程
 ```
 ----------------------------
 ```
+工作管理員
 memory  managment
 記憶體   管理
 (CPU)-------cahe快取
@@ -27,6 +28,7 @@ task managment
 ----------------------------
 怎麼知道連線(必考)
 ```
+CMD
 netstat -ano
 -a	顯示所有活動中的網路連接和電腦正在監聽的TCP/UDP埠。
 -n	顯示活動中的TCP連接，但主機位址和埠號以數字形式表示，不會嘗試確定實際主機名。
@@ -36,6 +38,7 @@ netstat -ano
 ```
 ----------------------------
 ```
+何謂作業系統
 作業系統Operating System(OS)
 是一組程式，負責協調電腦或行動裝置硬體間所有的活動
 ```
@@ -108,4 +111,27 @@ stake
 BUG  程式有漏洞
 ----------------------------
 磁碟重組、磁碟陣列
-
+----------------------------
+```
+網路管理人員(network administrator)
+使用伺服器作業系統做：
+ 在網路上新增或移除使用者、電腦和其他裝置
+ 網管人員也使用網路上的作業系統來設定網路、安裝軟體和管理網路安全。
+```
+```
+SSO (Single sign in)
+作業系統的功能，建立使用者帳戶，讓使用者登入(sign in)或存取網路或電腦資源
+```
+```
+作業系統分類
+分類              作業系統名稱
+單機stand-alone   Windows、macOS、UNIX、Linux、ChromeOS
+伺服器Server      Windows Server、macOS Server、UNIX、Linux
+行動裝置          Google Android、Apple IOS、Windows行動裝置版
+```
+```
+單機作業系統：　Windows、Linux、MacOS(Macintosh)...
+ 使用動態磚title，存取APP
+ 防毒 Windows defender
+ 伺服器 Windows、MacOS、UNIX、Linux
+ ```
